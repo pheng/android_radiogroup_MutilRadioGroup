@@ -1,0 +1,217 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.pheng.mutilradiogroup.MyRadioGroup
+        android:id="@+id/rg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#ee82ee"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/rdoBtn1"
+                android:layout_width="30dp"
+                android:layout_height="30dp" />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_launcher" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#ee82ee"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/rdoBtn2"
+                android:layout_width="30dp"
+                android:layout_height="30dp" />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_launcher" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="7dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="小白"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="你好哦哦"
+                    android:textSize="15sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#ee82ee"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/rdoBtn3"
+                android:layout_width="30dp"
+                android:layout_height="30dp" />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_launcher" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="7dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="米"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="你好哦哦"
+                    android:textSize="15sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </com.pheng.mutilradiogroup.MyRadioGroup>
+
+    <com.pheng.mutilradiogroup.MyRadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="@drawable/rdobtn_selecter"
+                android:button="@null"
+                android:gravity="center"
+                android:text="10元"
+                android:textSize="25sp" />
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="@drawable/rdobtn_selecter"
+                android:button="@null"
+                android:gravity="center"
+                android:text="20元"
+                android:textSize="25sp" />
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="@drawable/rdobtn_selecter"
+                android:button="@null"
+                android:gravity="center"
+                android:text="30元"
+                android:textSize="25sp" />
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="@drawable/rdobtn_selecter"
+                android:button="@null"
+                android:gravity="center"
+                android:text="50元"
+                android:textSize="25sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="@drawable/rdobtn_selecter"
+                android:button="@null"
+                android:gravity="center"
+                android:text="80元"
+                android:textSize="25sp" />
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="@drawable/rdobtn_selecter"
+                android:button="@null"
+                android:gravity="center"
+                android:text="100元"
+                android:textSize="25sp" />
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="@drawable/rdobtn_selecter"
+                android:button="@null"
+                android:gravity="center"
+                android:text="150元"
+                android:textSize="25sp" />
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="@drawable/rdobtn_selecter"
+                android:button="@null"
+                android:gravity="center"
+                android:text="200元"
+                android:textSize="25sp" />
+        </LinearLayout>
+    </com.pheng.mutilradiogroup.MyRadioGroup>
+
+</LinearLayout>
