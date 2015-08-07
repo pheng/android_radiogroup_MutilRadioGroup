@@ -1,5 +1,5 @@
 # android MutilRadioGroup
-复杂样式的单选框，自定义RadioGroup实现radiobutton多行多列排列布局
+android MutilRadioGroup：复杂样式的单选框，自定义RadioGroup实现radiobutton多行多列排列布局
 
 ![](https://github.com/pheng/MutilRadioGroup/blob/master/MutilRadioGrop.gif)
 
