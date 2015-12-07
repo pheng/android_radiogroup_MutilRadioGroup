@@ -73,10 +73,11 @@ public class MyRadioGroup extends LinearLayout {
         }
 
         if (id != -1) {
-        	mProtectFromCheckedChange = true;
+        	setCheckedStateForView(id, true);
         }
-        mProtectFromCheckedChange = false;
+        
         mCheckedId = id;
+		mProtectFromCheckedChange = false;
     }
 
     @Override
